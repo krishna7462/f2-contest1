@@ -50,6 +50,6 @@ let arr = [
         {id: 5, name: "Mike", age: "23", marks: 40},
         {id: 6, name: "Emma", age: "24", marks: 70}
       ];
-      arr = arr.concat(newArr);
-      console.log(arr);
+      let concatarr = arr.concat(newArr);
+      console.log(concatarr);
   }
